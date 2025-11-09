@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ar">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Jeu - Mariem</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <div class="header card">
+    <h1 class="title">Jeu</h1>
+    <p class="subtitle">لحظة ممتعة ❤️</p>
+    <div class="nav">
+      <a href="index.html">Accueil</a>
+      <a href="histoire.html">Notre Histoire</a>
+      <a href="souvenirs.html">Souvenirs</a>
+      <a href="jeu.html">Jeu</a>
+    </div>
+  </div>
+  <div class="container">
+    <div class="card game-area">
+      <h3>ضغط على القلب إلا قدرتي!</h3>
+      <div id="play-heart" class="heart" title="حاول تضغط علي"></div>
+      <p style="margin-top:14px">ولا جربي المسابقة الصغيرة:</p>
+      <form id="quiz-form" class="quiz">
+        <label>1) شكون اللي قال "bghitk" اول؟<br>
+          <select name="q1"><option value="">-- اختار --</option><option value="you">انت</option><option value="her">هي</option></select>
+        </label>
+        <label>2) شنو هو تاريخ اول نهار؟<br>
+          <select name="q2"><option value="">-- اختار --</option><option value="26/10">26/10</option><option value="other">آخر</option></select>
+        </label>
+        <button class="btn" type="submit">تشوف النتيجة</button>
+      </form>
+      <p id="quiz-result" style="margin-top:12px;font-weight:700"></p>
+    </div>
+  </div>
+  <footer>متعة وذكريات ♥</footer>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
